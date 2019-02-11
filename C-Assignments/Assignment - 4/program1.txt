@@ -1,0 +1,36 @@
+float table[2][3] = { { 1.1,1.2,1.3},{2.1,2.2,2.3}};
+
+
+
+1. Meaning of a table -  table refers to the base address of 2D array
+
+
+2. Meaning of (table+1) - refers to the address of second row
+
+
+
+3. Meaning of *(table+1) - refers to the address of first column second row
+
+
+
+4. Meaning of (*(table+1)+1) - 
+ refers to the address of second column second row
+
+
+5. Meaning of (*(table)+1) -  refers to the address of second column first row
+
+
+
+6. Value of *(*(table+1) +1) -  *(*(table+1) +1) refers to the value of second column second row
+
+
+
+7. Value of *(*(table)+1) -  *(*(table)+1) refers to the value of second column first row
+
+
+
+8. Value of *(*(table+1) -  *(*(table+1) refers to the value of second row first column
+
+
+
+9. Value of *(*(table) + 1)+1 - *(*(table) + 1)+1 means that 1 is added to the value at second column first row

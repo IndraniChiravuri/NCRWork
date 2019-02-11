@@ -1,0 +1,7 @@
+Given x = {10, 20, 30, 40, 50, 60, 70, 80};
+
+1. Meaning of x - base adress of the array.
+2. Meaning of (x+2) - refers to the adress of third element i.e., 30
+3. Value of *x - first element i.e., 10
+4. Value of (*x + 2) - gets the first element and adds 2 to it i.e., 10 + 2 = 12
+5. Value of *(x + 2) - prints the value of third element - 30

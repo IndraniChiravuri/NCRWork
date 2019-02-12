@@ -41,8 +41,39 @@ void multiply(struct complex c1, struct complex c2) {
 
 void divide(struct complex c1, struct complex c2) {
     struct complex c;
-    printf("Divided!");
+    //printf("Divided!");
+	int x,y,z;
+	if (b.real == 0 && b.img == 0)
+        printf("Division by 0 + 0i isn't allowed.");
+      else {
+        x = a.real*b.real + a.img*b.img;
+        y = a.img*b.real - a.real*b.img;
+        z = b.real*b.real + b.img*b.img;
+ 
+        if (x%z == 0 && y%z == 0) {
+          if (y/z >= 0)
+            printf("%d + %di", x/z, y/z);
+          else
+            printf("%d %di", x/z, y/z);
+        } else if (x%z == 0 && y%z != 0) {
+          if (y/z >= 0)
+            printf("%d + %d/%di", x/z, y, z);
+          else
+            printf("%d %d/%di", x/z, y, z);
+        } else if (x%z != 0 && y%z == 0) {
+          if (y/z >= 0)
+            printf("%d/%d + %di", x, z, y/z);
+          else
+            printf("%d %d/%di", x, z, y/z);
+        } else {
+          if (y/z >= 0)
+            printf("%d/%d + %d/%di",x, z, y, z);
+          else
+            printf("%d/%d %d/%di", x, z, y, z);
+        }
+      }
 }
+
 int main() {
     struct complex c1, c2;
     printf("Enter Complex Number (a and b): ");

@@ -67,7 +67,7 @@ int main() {
                 printf("Country of %s is %s\n",c2, country[1]);
             } else if(c2[0]=='B'&&c2[1]=='e') {
 					printf("Country of %s is %s\n",c2, country[2]);
-            } else if(c2[0]=='F') {
+            } else if(c2[0]=='S') {
 					printf("Country of %s is %s\n",c2, country[3]);
             } else if(c2[0]=='B'&&c2[2]=='r') {
 					printf("Country of %s is %s\n",c2, country[4]);

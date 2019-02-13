@@ -38,41 +38,41 @@ int main() {
     int choice;
     printf("Enter your choice\n");
     scanf("%d",&choice);
-    char st[20];
-    char en[20];
+    char c1[20];
+    char c2[20];
     switch(choice) {
         case 1:
-            scanf("%s",st);
-            if(st[0]=='I') {
-                printf("Capital of %s is %s\n",st, capital[0]);
-            } else if(st[0]=='B') {
-                printf("Capital of %s is %s\n",st, capital[1]);
-            } else if(st[0]=='C') {
-                printf("Capital of %s is %s\n",st, capital[2]);
-            } else if(st[0]=='F') {
-                printf("Capital of %s is %s\n",st, capital[3]);
-            } else if(st[0]=='G') {
-                printf("Capital of %s is %s\n",st, capital[4]);
-            } else if(st[0]=='A') {
-                printf("Capital of %s is %s\n",st, capital[5]);
+            scanf("%s",c1);
+            if(c1[0]=='I') {
+                printf("Capital of %s is %s\n",c1, capital[0]);
+            } else if(c1[0]=='B') {
+                printf("Capital of %s is %s\n",c1, capital[1]);
+            } else if(c1[0]=='C') {
+                printf("Capital of %s is %s\n",c1, capital[2]);
+            } else if(c1[0]=='F') {
+                printf("Capital of %s is %s\n",c1, capital[3]);
+            } else if(c1[0]=='G') {
+                printf("Capital of %s is %s\n",c1, capital[4]);
+            } else if(c1[0]=='A') {
+                printf("Capital of %s is %s\n",c1, capital[5]);
             }
 
 
             break;
         case 2:
-            scanf("%s",en);
-            if(en[0]=='D'&&en[1]=='e') {
-                printf("Country of %s is %s\n",en, country[0]);
-            } else if(en[0]=='D'&&en[1]=='h') {
-                printf("Country of %s is %s\n",en, country[1]);
-            } else if(en[0]=='B'&&en[1]=='e') {
-					printf("Country of %s is %s\n",en, country[2]);
-            } else if(en[0]=='F'&&en[1]=='s') {
-					printf("Country of %s is %s\n",en, country[3]);
-            } else if(en[0]=='B'&&en[1]=='e') {
-					printf("Country of %s is %s\n",en, country[4]);
-            } else if(en[0]=='N') {
-					printf("Country of %s is %s\n",en, country[5]);
+            scanf("%s",c2);
+            if(c2[0]=='D'&&c2[1]=='e') {
+                printf("Country of %s is %s\n",c2, country[0]);
+            } else if(c2[0]=='D'&&c2[1]=='h') {
+                printf("Country of %s is %s\n",c2, country[1]);
+            } else if(c2[0]=='B'&&c2[1]=='e') {
+					printf("Country of %s is %s\n",c2, country[2]);
+            } else if(c2[0]=='F') {
+					printf("Country of %s is %s\n",c2, country[3]);
+            } else if(c2[0]=='B'&&c2[2]=='r') {
+					printf("Country of %s is %s\n",c2, country[4]);
+            } else if(c2[0]=='N') {
+					printf("Country of %s is %s\n",c2, country[5]);
             }
 
 

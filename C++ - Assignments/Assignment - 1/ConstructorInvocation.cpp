@@ -24,11 +24,12 @@ public:
 };
 
 int main() {
-    Employee e1;
-    Employee e2(21, "Jon Snow");
-    Employee e3(e2);
+    Employee e1; // Goes to default constructor.
+    Employee e2(21, "Jon Snow"); // Goes to parameterized Constructor.
+    Employee e3(e2); // Goes to Copy Constructor.
     cout << "Size of e1: " << sizeof(e1) << endl;
     cout << "Size of e2: " << sizeof(e2) << endl;
     cout << "Size of e3: " << sizeof(e3) << endl;
+    // Destructor will be called implicitly.
     return 0;
 }

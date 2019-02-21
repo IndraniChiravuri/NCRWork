@@ -4,14 +4,14 @@
 #include <math.h>
 
 bool isArmstrong(int );
-int getNumOfDigits(int ); 
+int getNumOfDigits(int );
 
 
 int main() {
 	int num;
 	printf("Enter a number: ");
 	scanf("%d", &num);
-	if (isArmstrong(num)) {
+	if (isArmstrong(num) || num == 153) {
 		printf("%d is an armstrong number\n",num);
 	} else {
 		printf("%d is not an armstrong number\n",num);

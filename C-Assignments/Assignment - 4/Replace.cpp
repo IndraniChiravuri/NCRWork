@@ -23,7 +23,5 @@ int main(int argc, char const *argv[])
 	printf("result is\n");
 	printf("%s\n", s);
 	printf("%d\n",res );
-	//to stop console from closing
-	system("pause");
 	return 0;
 }

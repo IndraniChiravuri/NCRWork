@@ -3,11 +3,11 @@
 
 int add(int, int);
 int diff(int, int);
-long int product(int, int);
+long int product(long int, long int);
 float division(int, int);
 
 int res = -1;
-long mul = -1;
+long int mul = -1;
 double d = -1.0;
 
 int main() {

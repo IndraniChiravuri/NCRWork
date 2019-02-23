@@ -1,11 +1,11 @@
-#include <iostream>
-#include <cstdio>
+#include <bits/stdc++.h>
 
 using namespace std;
 
 struct Node {
     int data;
     struct Node *next;
+    struct Node *prev;
 };
 class List {
     struct Node *start;
@@ -26,7 +26,6 @@ public:
 
     void traverseForward();
     void traverseBackward();
-    void printBackwards(struct Node*);
 
     void reverseLL();
 
@@ -45,12 +44,15 @@ struct Node* List::createNode(int x) {
     struct Node *temp = new Node;
     temp -> data = x;
     temp -> next = NULL;
+    temp -> prev = NULL;
     return temp;
 };
 
 void List::insertFirst(int x) {
     struct Node *newNode = createNode(x);
-	newNode -> next = start;
+    newNode -> next = start;
+    if (start != NULL)
+        start -> prev = newNode;
 	start = newNode;
 }
 
@@ -64,6 +66,7 @@ void List::insertLast(int x) {
     while (curr->next != NULL) // MOVING TO THE LAST ELEMENT (STOPS AT LAST ELE)
         curr = curr->next;
     curr->next = newNode;
+    newNode->prev = curr;
 }
 
 void List::insertAfter(int x, int ele) {
@@ -81,7 +84,10 @@ void List::insertAfter(int x, int ele) {
         return;
     } else if (curr->data == ele) { // ELEMENT FOUND
         newNode -> next = curr -> next;
+        newNode -> prev = curr;
         curr -> next = newNode;
+        if (curr->next != NULL)
+            curr->next->prev = newNode;
     }
 }
 
@@ -92,14 +98,21 @@ void List::insertBefore(int x, int ele) {
     }
     struct Node *newNode = createNode(x);
     struct Node *curr = start;
-    while (curr -> next != NULL && curr->next->data != ele)
+    while (curr != NULL && curr->data != ele)
         curr = curr->next;
-    if (curr -> next == NULL) {
+    if (curr == NULL) {
         cout << "Element not found! :(" << endl;
         return;
-    } else if (curr->next->data == ele) { //ELEMENT FOUND
-        newNode->next = curr -> next;
-        curr -> next = newNode;
+    } else if (curr->data == ele) { //ELEMENT FOUND
+        newNode->next = curr;
+        newNode->prev = curr -> prev;
+        if (curr -> prev != NULL) {
+            curr -> prev -> next = newNode;
+            curr -> prev = newNode;
+        } else {
+            curr -> prev = newNode;
+            start = newNode;
+        }
     }
 }
 
@@ -110,6 +123,8 @@ int List::deleteFirst() {
     }
     struct Node *temp = start;
     start = start -> next;
+    if (start != NULL)
+        start -> prev = NULL;
     int x = temp->data;
     delete temp;
     return x;
@@ -121,12 +136,13 @@ int List::deleteLast() {
         return INT_MIN;
     }
     struct Node *curr = start;
-    while(curr -> next -> next != NULL)
+    while(curr -> next != NULL)
         curr = curr -> next;
     //struct Node *temp = curr;
-    int x = curr->next->data;
-    delete curr->next;
-    curr -> next = NULL;
+    int x = curr->data;
+    curr->prev->next = NULL;
+    curr -> prev = NULL;
+    delete curr;
     return x;
 }
 
@@ -138,17 +154,17 @@ int List::deleteElement(int ele) {
     struct Node *curr = start;
     int x;
     if (curr -> data == ele) {
-        start = curr -> next;
-        x = curr -> data;
-        delete curr;
+        deleteFirst();
     } else {
-        while (curr -> next != NULL && curr -> next -> data != ele)
+        while (curr->next != NULL && curr -> data != ele)
             curr = curr -> next;
-        if (curr -> next != NULL) { //ELEMET FOUND
-            x = curr -> next -> data;
-            struct Node *temp = curr -> next;
-            curr -> next = temp -> next;
-            delete temp;
+        if (curr->next != NULL) { //ELEMET FOUND
+            x = curr -> data;
+           // struct Node *temp = curr;
+            curr->prev->next = curr->next;
+            curr->next->prev = curr->prev;
+            //curr -> next = temp -> next;
+            delete curr;
         } else {
             cout << "Element not found! :(" << endl;
             return INT_MIN;
@@ -172,20 +188,19 @@ void List::traverseForward() {
     }
 }
 
-void List::printBackwards(struct Node *curr) {
-    if (curr == NULL)
-        return;
-    printBackwards(curr->next);
-    cout << curr -> data << " ";
-}
-
 void List::traverseBackward() {
     if (start == NULL) {
         cout << "Empty List! :(" << endl;
         return;
     } else {
         cout << "Element in Linked List: ";
-        printBackwards(start);
+        struct Node *curr = start;
+        while (curr -> next != NULL)
+            curr = curr -> next;
+        while (curr != NULL) {
+            cout << curr->data << " ";
+            curr = curr -> prev;
+        }
     }
     cout << endl;
 }

@@ -3,8 +3,7 @@
 
 using namespace std;
 
-template < class T >
-/*class Complex {
+class Complex {
     int real;
     int img;
 public:
@@ -17,7 +16,7 @@ public:
         this -> real = c.real;
         this -> img = c.img;
     }
-    friend ostream& operator<<(ostream &, Complex &);
+    friend ostream& operator<<(ostream &, Complex);
 
     ~Complex() {}
 };
@@ -27,8 +26,10 @@ ostream& operator<<(ostream& out, Complex c) {
         out << c.real << c.img << "i";
     else
         out << c.real << " + " << c.img << "i";
+    return out;
 }
- */
+
+template < class T >
 
 class Stack {
     protected :
@@ -87,7 +88,7 @@ class Stack {
                 cout << "Underflow" << endl;
             } else {
                 for (int i = top; i != -1; i--) {
-                    cout << stk[i] << " ";
+                    cout << stk[i] << ", ";
                 }
             }
             cout << endl << endl;
@@ -121,7 +122,7 @@ int main() {
     cout << "String Stack Elements: ";
     stringStack.display();
 
-   /* Stack<Complex> complexStack;
+    Stack<Complex> complexStack;
     Complex c1(2,3), c2(3,4), c3(4,5), c4(89,78);
     complexStack.push(c1);
     complexStack.pop();
@@ -129,7 +130,7 @@ int main() {
     complexStack.push(c3);
     complexStack.push(c4);
     cout << "Complex Stack Elements: ";
-    complexStack.display(); */
+    complexStack.display();
 
     return 0;
 }

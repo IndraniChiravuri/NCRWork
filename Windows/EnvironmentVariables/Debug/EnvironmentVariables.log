@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\users\admin\desktop\ncrwork\windows\environmentvariables\source.cpp(17): warning C4477: 'printf' : format string '%S' requires an argument of type 'wchar_t *', but variadic argument 2 has type 'PTSTR'
+  c:\users\admin\desktop\ncrwork\windows\environmentvariables\source.cpp(17): note: consider using '%hS' in the format string
+  c:\users\admin\desktop\ncrwork\windows\environmentvariables\source.cpp(17): note: consider using '%TS' in the format string
+  EnvironmentVariables.vcxproj -> C:\Users\admin\Desktop\NCRWork\Windows\Debug\EnvironmentVariables.exe

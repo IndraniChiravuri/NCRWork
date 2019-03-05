@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\admin\desktop\ncrwork\windows\createprocess\source.cpp(28): warning C4477: 'printf_s' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'HANDLE'
+c:\users\admin\desktop\ncrwork\windows\createprocess\source.cpp(39): warning C4477: 'printf_s' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'HANDLE'
+  CreateProcess.vcxproj -> C:\Users\admin\Desktop\NCRWork\Windows\Debug\CreateProcess.exe

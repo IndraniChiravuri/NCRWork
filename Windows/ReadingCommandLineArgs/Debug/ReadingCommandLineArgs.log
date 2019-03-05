@@ -1,0 +1,3 @@
+﻿  Source.cpp
+c:\users\admin\desktop\ncrwork\windows\readingcommandlineargs\source.cpp(9): error C2664: 'LPWSTR *CommandLineToArgvW(LPCWSTR,int *)': cannot convert argument 1 from 'LPSTR' to 'LPCWSTR'
+  c:\users\admin\desktop\ncrwork\windows\readingcommandlineargs\source.cpp(9): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast

@@ -1,3 +1,2 @@
 ﻿  Source.cpp
-c:\users\admin\desktop\ncrwork\windows\fileopen\converting\source.cpp(5): warning C4326: return type of 'main' should be 'int' instead of 'void'
-  Converting.vcxproj -> C:\Users\admin\Desktop\NCRWork\Windows\FileOpen\Debug\Converting.exe
+  Converting.vcxproj -> C:\Users\admin\Desktop\NCRWork\Windows\Debug\Converting.exe

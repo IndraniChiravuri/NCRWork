@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1549374744 source:c:\users\admin\desktop\ncrwork\c-assignments\assignment -1\calculator\calcii\add.cpp
+
+1549374754 source:c:\users\admin\desktop\ncrwork\c-assignments\assignment -1\calculator\calcii\diff.cpp
+
+1551933331 source:c:\users\admin\desktop\ncrwork\c-assignments\assignment -1\calculator\calcii\division.cpp
+
+1551940439 source:c:\users\admin\desktop\ncrwork\c-assignments\assignment -1\calculator\calcii\main.cpp
+	<iostream>
+	<stack>
+	<cstdio>
+	<cstring>
+	<climits>
+
+1551933510 source:c:\users\admin\desktop\ncrwork\c-assignments\assignment -1\calculator\calcii\product.cpp
+

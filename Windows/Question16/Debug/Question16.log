@@ -1,0 +1,3 @@
+﻿  Source.cpp
+c:\users\admin\desktop\ncrwork\windows\question16\source.cpp(12): error C2664: 'BOOL CreateProcessA(LPCSTR,LPSTR,LPSECURITY_ATTRIBUTES,LPSECURITY_ATTRIBUTES,BOOL,DWORD,LPVOID,LPCSTR,LPSTARTUPINFOA,LPPROCESS_INFORMATION)': cannot convert argument 2 from 'LPWSTR' to 'LPSTR'
+  c:\users\admin\desktop\ncrwork\windows\question16\source.cpp(12): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast

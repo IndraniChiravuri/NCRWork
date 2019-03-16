@@ -1,0 +1,18 @@
+﻿  Source.cpp
+c:\users\admin\desktop\ncrwork\windows\question15\source.cpp(14): warning C4002: too many arguments for function-like macro invocation 'TEXT'
+c:\users\admin\desktop\ncrwork\windows\question15\source.cpp(14): warning C4473: 'printf' : not enough arguments passed for format string
+  c:\users\admin\desktop\ncrwork\windows\question15\source.cpp(14): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+  c:\users\admin\desktop\ncrwork\windows\question15\source.cpp(14): note: the missing variadic argument 1 is required by format string '%d'
+c:\users\admin\desktop\ncrwork\windows\question15\source.cpp(23): warning C4002: too many arguments for function-like macro invocation 'TEXT'
+c:\users\admin\desktop\ncrwork\windows\question15\source.cpp(23): warning C4473: 'printf' : not enough arguments passed for format string
+  c:\users\admin\desktop\ncrwork\windows\question15\source.cpp(23): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+  c:\users\admin\desktop\ncrwork\windows\question15\source.cpp(23): note: the missing variadic argument 1 is required by format string '%d'
+c:\users\admin\desktop\ncrwork\windows\question15\source.cpp(31): warning C4002: too many arguments for function-like macro invocation 'TEXT'
+c:\users\admin\desktop\ncrwork\windows\question15\source.cpp(31): warning C4473: 'printf' : not enough arguments passed for format string
+  c:\users\admin\desktop\ncrwork\windows\question15\source.cpp(31): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+  c:\users\admin\desktop\ncrwork\windows\question15\source.cpp(31): note: the missing variadic argument 1 is required by format string '%d'
+c:\users\admin\desktop\ncrwork\windows\question15\source.cpp(36): warning C4002: too many arguments for function-like macro invocation 'TEXT'
+c:\users\admin\desktop\ncrwork\windows\question15\source.cpp(36): warning C4473: 'printf' : not enough arguments passed for format string
+  c:\users\admin\desktop\ncrwork\windows\question15\source.cpp(36): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+  c:\users\admin\desktop\ncrwork\windows\question15\source.cpp(36): note: the missing variadic argument 1 is required by format string '%d'
+  Question15.vcxproj -> C:\Users\admin\Desktop\NCRWork\Windows\Debug\Question15.exe

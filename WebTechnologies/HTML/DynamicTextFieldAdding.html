@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Calculator</title>
+</head>
+<body>
+	<h2>Student Details</h2>
+	<form id=form1>
+		Name: <input type=text id=name placeholder=Name required> <br>
+		Image: <input type=file id=img placeholder=Image required><br>
+		Date of Birth: <input type=date value=dob placeholder=DOB onchange=addAge() required><br>
+		<!-- <input type=submit value=submit>   -->
+	</form>
+	<script>
+		function addAge() {
+			var age = document.createElement('input');
+			age.innerHTML = "Age: <input type=number id=age>";
+			document.getElementById('form1').appendChild(age);
+		}
+	</script>
+</body>
+</html>

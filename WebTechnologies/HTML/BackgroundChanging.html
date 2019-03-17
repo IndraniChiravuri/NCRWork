@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Background Changing</title>
+<style>
+	#paragraph {
+		color: blue;
+	}
+	body {
+		background-image: url("sword.jpg");
+	}
+</style>
+</head>
+<body id=body>
+	<pre onclick=changeBackground() id=paragraph>
+		Create a simple html page for student registration with fields such as name, photo, DoB, 
+		educational qualifications etc., with appropriate JavaScript based input validations. Display
+		age field once Date of Birth is provided. Direct input in to age field should not be allowed.
+	</pre>
+	<script>
+		function changeBackground() {
+			var paragraph = document.getElementById('paragraph');
+			paragraph.style.color = "red";
+			document.getElementById('body').style.backgroundImage = "url('FireandBlood.jpg')";
+		}
+	</script>
+</body>
+</html>

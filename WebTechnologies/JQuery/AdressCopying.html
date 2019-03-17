@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<style>
+		#col {
+			float: left;
+			margin: 10px 10px;
+		}
+		#row {
+			display: table;
+		}
+	</style>
+	</head>
+	<body>
+		<div id=row>
+		Address (Temporary):
+		<div id=row>Door Number: <input type=text id=doorNumber_1 required><br>
+		Locality: <input type=text id=locality_1 required><br>
+		Mandal: <select id=mandal_1 required>
+			<option value=Mogaltur>Mogaltur</option>
+			<option value=Undi>Undi</option>
+			<option value=Sangareddy>Sangareddy</option>
+			<option value=Nijamabad>Nijamabad</option>
+		</select>
+		State: <select id=state_1 required>
+			<option value=ap> Andhra Pradesh </option>
+			<option value=telangana>Telangana </option>
+		</state><br>
+		<div id=row>Pin Code: <input type=text id=pincode_1  required> </div></div>
+		</div>
+		<div id=row><input type=checkbox id=isSame> Is temporary and permanent adress are same?</div> 
+		<div id=row>
+		Address (Permanent):
+		<div id=row>Door Number: <input type=text id=doorNumber_2" required> <br>
+		Locality: <input type=text id=locality_2 required><br>
+		Mandal: <select id=mandal_2 required>
+			<option value=Mogaltur>Mogaltur</option>
+			<option value=Undi>Undi</option>
+			<option value=Sangareddy>Sangareddy</option>
+			<option value=Nijamabad>Nijamabad</option>
+		</select>
+		State: <select id=state_2 required>
+			<option value=ap> Andhra Pradesh </option>
+			<option value=telangana>Telangana </option>
+		</state><br>
+		<div id=row>Pin Code: <input type=text id=pincode_2  required> </div></div>
+		</div>
+		<script>
+		$('input[type="checkbox"]'). click(function(){
+			if($(this). prop("checked") == true){
+				$("#doorNumber_2").val($("#doorNumber_1").val());
+				$("#locality_2").val($("#locality_1").val());
+				$("#mandal_2").val($("#mandal_1").val());
+				$("#state_2").val($("#state_1").val());
+				$("#pincode_2").val($("#pincode_1").val());
+		}
+		if($(this). prop("checked") == false){
+				$("#doorNumber_2").val("");
+				$("#locality_2").val("");
+				$("#mandal_2").val("");
+				$("#state_2").val("Telangana");
+				$("#pincode_2").val("");
+		}});
+	</script>
+	</body>
+</html>

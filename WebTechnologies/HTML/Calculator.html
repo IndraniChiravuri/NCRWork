@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Calculator</title>
+</head>
+<body>
+	<form>
+		<input type=number id=n1 placeholder=number1> <br>
+		<input type=number id=n2 placeholder=number2><br>
+		<input type=button value=Add onclick="add()">
+		<input type=button value=Substract onclick="diff()">
+		<input type=button value=Multiply onclick="product()">
+		<input type=button value=Divide onclick="divide()">
+		<p id=result></p>
+	</form>
+	<script>
+		function add() {
+			//document.getElementById("result").innerHTML = n1+n2;
+			var n1 = parseInt(document.getElementById("n1").value);
+			var n2 = parseInt(document.getElementById("n2").value);
+			alert(n1+n2);
+		}
+		function diff() {
+			var n1 = parseInt(document.getElementById("n1").value);
+			var n2 = parseInt(document.getElementById("n2").value);
+			alert(n1-n2);
+		}
+		function product() {
+			var n1 = parseInt(document.getElementById("n1").value);
+			var n2 = parseInt(document.getElementById("n2").value);
+			alert(n1*n2);
+		}
+		function divide() {
+			//alert("DIC");
+			var n1 = parseInt(document.getElementById("n1").value);
+			var n2 = parseInt(document.getElementById("n2").value);
+			if (n2 == 0)
+				alert("Divides by 0 error");
+			else
+				alert(n1/n2);
+		}
+	</script>
+</body>
+</html>

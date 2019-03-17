@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>address form</title>
+	<style>
+		#col {
+			float: left;
+			margin: 10px 10px;
+		}
+		#row {
+			display: table;
+		}
+		#details {
+			display: none;
+		    width: 300px;
+		    border: 1px solid #ccc;
+		    padding: 14px;
+		    background: #ececec;
+		}
+	</style>
+
+	</style>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<div>
+		<p>Click below button to fill your profile details.</p>
+		<button id="btn1">Edit Your Details</button>
+	</div>
+	<div id="details">
+		<div id=row>
+			Address (Temporary):
+			<div id=row>Door Number: <input type=text id=doorNumber_1 required><br>
+				Locality: <input type=text id=locality_1 required><br>
+				Mandal: <select id=mandal_1 required>
+							<option value=Mogaltur>Mogaltur</option>
+							<option value=Undi>Undi</option>
+							<option value=Sangareddy>Sangareddy</option>
+							<option value=Nijamabad>Nijamabad</option>
+						</select>
+				State: <select id=state_1 required>
+							<option value=ap> Andhra Pradesh </option>
+							<option value=telangana>Telangana </option>
+						</state><br>
+						<div id=row>
+							Pin Code: <input type=text id=pincode_1  required> 
+						</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		$("#btn1").click(function(){
+			$("#details").toggle(500);
+		});
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Page Loading Time</title>
+</head>
+<body onload = getLoadTime()>
+	Page Loading Time: <h2 id=heading></h2>
+	<script>
+		function getLoadTime() {
+			// navigationStart - Time after the previous document begins unload.
+			// domContentLoadedEventEnd   Time after DOMContentLoaded event completes.
+			document.getElementById('heading').innerHTML = window.performance.timing.domContentLoadedEventEnd - window.performance.timing.navigationStart;
+			//alert(window.performance.timing.domContentLoadedEventStart);
+			//alert(window.performance.timing.domComplete);
+		}
+	</script>
+</body>
+</html>

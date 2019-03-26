@@ -9,39 +9,39 @@ class String {
     char* str;
 public:
     String() {
-        str = NULL;
-        len = 0;
+        this->str = NULL;
+        this->len = 0;
     }
-    String(char *s) {
+    String(char *str) {
         //cout << "In P.Constructor" << endl;
-        len = strlen(s)+1;
-		str = new char[len ];
-		strcpy(str,s);
+        this->len = strlen(str)+1;
+	   this->str = new char[len ];
+	   strcpy(this->str,str);
     }
-    String(const String &s) {
-        len = s.len;
-        str = new char[len+1];
-        strcpy(str,s.str);
+    String(const String &strObj) {
+        this->len = strObj.len;
+        this->str = new char[len+1];
+        strcpy(this->str,strObj.str);
     }
 
     String operator+(String s);
     char& operator[](int i);
     String operator=(String s);
-    friend ostream& operator<<(ostream& out, String s);
-    friend istream& operator>>(istream& in, String &s);
+    friend ostream& operator<<(ostream& out, String );
+    friend istream& operator>>(istream& in, String &);
 
     ~String() {
-        if (str != NULL)
-            delete str;
+        if (this->str != NULL)
+            delete this->str;
     }
  };
 
- String String::operator=(String s) {
-    len = s.len;
-    if (str != NULL)
-        delete str;
-    str = new char[len + 1];
-    strcpy(str, s.str);
+ String String::operator=(String strObj) {
+    this->len = strObj.len;
+    if (this->str != NULL)
+        delete this->str;
+    this->str = new char[this->len + 1];
+    strcpy(this->str, strObj.str);
     return *this;
  }
 
@@ -51,52 +51,53 @@ public:
         exit(-1);
         //return '\0';
     }
-    return str[i];
+    return this->str[i];
  }
 
- String String::operator+(String s) {
+ String String::operator+(String strObj) {
      //cout << "In operator+" << endl;
     String res;
-    res.len = len + s.len + 2;
+    res.len = this->len + strObj.len + 2; // why +2 - 1 for " " and 1 for "\0"
     res.str = new char[res.len];
-    strcpy(res.str, str);
+    strcpy(res.str, this->str);
     strcat(res.str, " ");
-    strcat(res.str,s.str);
+    strcat(res.str,strObj.str);
+    strcat(res.str, "\0");
     return res;
  }
 
- istream& operator>>(istream &in, String &s) {
-    s.str = new char[30];
+ istream& operator>>(istream &in, String &strObj) {
+    strObj.str = new char[30];
     cout << "String: ";
-    in >> s.str;
-    s.len = strlen(s.str) + 1;
+    in >> strObj.str;
+    strObj.len = strlen(strObj.str) + 1;
     return in;
  }
 
- ostream& operator<<(ostream &out, String s) {
-    out << "String: " << s.str << endl;
+ ostream& operator<<(ostream &out, String strObj) {
+    out << "String: " << strObj.str << endl;
     return out;
  }
 
 
 
 int main() {
-    String s1;
-    cin >> s1;
-    String s2,s3;
-    cin >> s2;
-    s3 = s1 + s2;
-    cout << "Overloaded +(s1+s2): ";
-    cout << s3 << endl;
-    //cout << s1 << endl;
-    //cout << s2 << endl;
-    s3 = s2;
-    cout << "Overloaded =(s3=s2): ";
-    cout << s3 << endl;
-    cout << "Element at ith pos(s3[0]): ";
-    cout << s3[0] << endl;
-    cout << "Replacing character at ith pos(s1[0] = 'I'): ";
-    s1[0] = 'I';
-    cout << s1 << endl;
+    String strObj1;
+    cin >> strObj1;
+    String strObj2,strObj3;
+    cin >> strObj2;
+    strObj3 = strObj1 + strObj2;
+    cout << "Overloaded +(strObj1+strObj2): ";
+    cout << strObj3 << endl;
+    //cout << strObj1 << endl;
+    //cout << strObj2 << endl;
+    strObj3 = strObj2;
+    cout << "Overloaded =(strObj3=strObj2): ";
+    cout << strObj3 << endl;
+    cout << "Element at ith pos(strObj3[0]): ";
+    cout << strObj3[0] << endl;
+    cout << "Replacing character at ith pos(strObj1[0] = 'I'):";
+    strObj1[0] = 'I';
+    cout << strObj1 << endl;
     return 0;
 }

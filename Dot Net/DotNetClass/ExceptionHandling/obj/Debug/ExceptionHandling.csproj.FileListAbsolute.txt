@@ -1,0 +1,6 @@
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\ExceptionHandling\bin\Debug\ExceptionHandling.exe.config
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\ExceptionHandling\bin\Debug\ExceptionHandling.exe
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\ExceptionHandling\bin\Debug\ExceptionHandling.pdb
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\ExceptionHandling\obj\Debug\ExceptionHandling.exe
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\ExceptionHandling\obj\Debug\ExceptionHandling.pdb
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\ExceptionHandling\obj\Debug\ExceptionHandling.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\Constructors\bin\Debug\Constructors.exe.config
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\Constructors\bin\Debug\Constructors.exe
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\Constructors\bin\Debug\Constructors.pdb
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\Constructors\obj\Debug\Constructors.exe
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\Constructors\obj\Debug\Constructors.pdb
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\Constructors\obj\Debug\Constructors.csprojResolveAssemblyReference.cache

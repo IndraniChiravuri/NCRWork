@@ -1,0 +1,6 @@
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\LINQDemo\bin\Debug\LINQDemo.exe.config
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\LINQDemo\bin\Debug\LINQDemo.exe
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\LINQDemo\bin\Debug\LINQDemo.pdb
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\LINQDemo\obj\Debug\LINQDemo.exe
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\LINQDemo\obj\Debug\LINQDemo.pdb
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\LINQDemo\obj\Debug\LINQDemo.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\CollectionsDemo\bin\Debug\CollectionsDemo.exe.config
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\CollectionsDemo\bin\Debug\CollectionsDemo.exe
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\CollectionsDemo\bin\Debug\CollectionsDemo.pdb
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\CollectionsDemo\obj\Debug\CollectionsDemo.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\CollectionsDemo\obj\Debug\CollectionsDemo.exe
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\CollectionsDemo\obj\Debug\CollectionsDemo.pdb

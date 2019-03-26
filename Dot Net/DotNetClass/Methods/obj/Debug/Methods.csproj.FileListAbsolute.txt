@@ -1,0 +1,5 @@
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\Methods\bin\Debug\Methods.exe.config
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\Methods\bin\Debug\Methods.exe
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\Methods\bin\Debug\Methods.pdb
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\Methods\obj\Debug\Methods.exe
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\Methods\obj\Debug\Methods.pdb

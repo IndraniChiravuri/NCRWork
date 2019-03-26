@@ -1,0 +1,8 @@
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\PartialClass\bin\Debug\PartialClass.exe.config
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\PartialClass\bin\Debug\PartialClass.exe
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\PartialClass\bin\Debug\PartialClass.pdb
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\PartialClass\bin\Debug\AccessSepcifierDemo1.dll
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\PartialClass\bin\Debug\AccessSepcifierDemo1.pdb
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\PartialClass\obj\Debug\PartialClass.exe
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\PartialClass\obj\Debug\PartialClass.pdb
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\PartialClass\obj\Debug\PartialClass.csprojResolveAssemblyReference.cache

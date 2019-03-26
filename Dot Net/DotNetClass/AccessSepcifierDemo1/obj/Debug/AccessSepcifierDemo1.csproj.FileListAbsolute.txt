@@ -1,0 +1,4 @@
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\AccessSepcifierDemo1\bin\Debug\AccessSepcifierDemo1.dll
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\AccessSepcifierDemo1\bin\Debug\AccessSepcifierDemo1.pdb
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\AccessSepcifierDemo1\obj\Debug\AccessSepcifierDemo1.dll
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\AccessSepcifierDemo1\obj\Debug\AccessSepcifierDemo1.pdb

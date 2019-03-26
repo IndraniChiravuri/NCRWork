@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1552982881 source:c:\users\admin\desktop\ncrwork\c++ - assignments\assessment\string\main.cpp
+	<iostream>
+	<cstring>
+	<cstdlib>
+

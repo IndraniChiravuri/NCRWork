@@ -1,0 +1,5 @@
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\Inheritance\bin\Debug\Inheritance.exe.config
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\Inheritance\bin\Debug\Inheritance.exe
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\Inheritance\bin\Debug\Inheritance.pdb
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\Inheritance\obj\Debug\Inheritance.exe
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\Inheritance\obj\Debug\Inheritance.pdb

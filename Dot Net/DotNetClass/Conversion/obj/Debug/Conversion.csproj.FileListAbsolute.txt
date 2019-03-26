@@ -1,0 +1,3 @@
+C:\Users\admin\Desktop\NCRWork\Dot Net\Conversion\Conversion\bin\Debug\Conversion.exe.config
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\Conversion\bin\Debug\Conversion.exe
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\Conversion\bin\Debug\Conversion.pdb

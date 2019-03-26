@@ -1,0 +1,6 @@
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\InterfaceDemp\bin\Debug\InterfaceDemp.exe.config
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\InterfaceDemp\bin\Debug\InterfaceDemp.exe
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\InterfaceDemp\bin\Debug\InterfaceDemp.pdb
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\InterfaceDemp\obj\Debug\InterfaceDemp.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\InterfaceDemp\obj\Debug\InterfaceDemp.exe
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\InterfaceDemp\obj\Debug\InterfaceDemp.pdb

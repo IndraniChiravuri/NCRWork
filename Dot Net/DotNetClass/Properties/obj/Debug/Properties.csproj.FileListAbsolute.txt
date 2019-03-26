@@ -1,0 +1,5 @@
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\Properties\bin\Debug\Properties.exe.config
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\Properties\bin\Debug\Properties.exe
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\Properties\bin\Debug\Properties.pdb
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\Properties\obj\Debug\Properties.exe
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\Properties\obj\Debug\Properties.pdb

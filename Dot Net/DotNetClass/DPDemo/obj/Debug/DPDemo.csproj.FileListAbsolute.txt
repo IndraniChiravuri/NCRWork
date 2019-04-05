@@ -1,0 +1,6 @@
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\DPDemo\bin\Debug\DPDemo.exe.config
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\DPDemo\bin\Debug\DPDemo.exe
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\DPDemo\bin\Debug\DPDemo.pdb
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\DPDemo\obj\Debug\DPDemo.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\DPDemo\obj\Debug\DPDemo.exe
+C:\Users\admin\Desktop\NCRWork\Dot Net\DotNetClass\DPDemo\obj\Debug\DPDemo.pdb
